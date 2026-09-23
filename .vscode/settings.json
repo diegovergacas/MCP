@@ -3,5 +3,9 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "files.exclude": {
     "**/node_modules": true
-  }
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "git.autoRepositoryDetection": true,
+  "git.repositoryScanMaxDepth": 0,
+  "git.ignoredRepositories": ["C:/Users/verga"]
 }

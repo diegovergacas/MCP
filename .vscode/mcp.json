@@ -3,8 +3,12 @@
     "mcp-maker": {
       "type": "stdio",
       "command": "npx",
-      "args": ["tsx", "src/index.ts"],
-      "cwd": "${workspaceFolder}"
+      "args": ["-y", "tsx", "src/index.ts"],
+      "cwd": "${workspaceFolder}",
+      "dev": {
+        "watch": "src/**/*.ts",
+        "debug": { "type": "node" }
+      }
     }
   }
 }

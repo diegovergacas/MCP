@@ -43,12 +43,14 @@ Não use `console.log` no servidor: `stdout` é o protocolo. Logue com `console.
 
 ## Abrir no VS Code e ligar o MCP
 
-1. **File → Open Folder** e escolha `Documents/estudos/mcp` (esta pasta, não o home do Windows).
-2. Aceite as extensões sugeridas (`.vscode/extensions.json`): Copilot / Copilot Chat, que hospedam MCP.
-3. Rode `npm install` no terminal integrado se ainda não rodou.
-4. Abra o painel de MCP do VS Code (**Chat / Agent → MCP** ou Command Palette: `MCP: List Servers`).
-5. Ligue **mcp-maker**. A config está em [`.vscode/mcp.json`](.vscode/mcp.json).
-6. No chat, peça por exemplo: *“para que serve um MCP?”* ou *“desenha um MCP de notas locais”*.
+A barra inferior tem que mostrar **main** (este repo). Se aparecer **master**, o VS Code abriu a pasta do usuário, não este projeto.
+
+1. **File → Open Folder** e escolha exatamente `C:\Users\verga\Documents\estudos\mcp` — ou abra o arquivo `MCP.code-workspace`.
+2. Confirme na barra: branch **main**, remoto `origin/main`.
+3. Aceite as extensões sugeridas (`.vscode/extensions.json`): Copilot / Copilot Chat.
+4. Rode `npm install` no terminal integrado se ainda não rodou.
+5. Command Palette (`Ctrl+Shift+P`) → **MCP: List Servers** → inicie **mcp-maker**.
+6. No chat (modo Agent), peça: *“para que serve um MCP?”* ou *“desenha um MCP de notas locais”*.
 7. Aprove a primeira chamada de ferramenta.
 
 Para testar sem o chat: **Run and Debug → MCP: inspector** (abre o Inspector no navegador) ou:

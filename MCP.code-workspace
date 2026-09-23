@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "MCP",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "git.openRepositoryInParentFolders": "never",
+    "git.repositoryScanMaxDepth": 0
+  }
+}
